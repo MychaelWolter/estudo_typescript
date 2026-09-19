@@ -1,0 +1,22 @@
+"use strict";
+Object.defineProperty(exports, "__esModule", { value: true });
+console.log("Union Types");
+let teste;
+teste = "FullStack";
+let vteste;
+vteste = "Mychael";
+const testeArray = ["Teste1", 2, false];
+const cursos = ["JavaScript", "TypeScript", "Node.js"];
+const valores = [10, 50, 240];
+cursos.push("React");
+valores.push(570);
+console.log(cursos);
+console.log(valores);
+console.log(teste);
+console.log(vteste);
+vteste = 100;
+console.log(vteste);
+vteste = true;
+console.log(vteste);
+console.log(testeArray);
+//# sourceMappingURL=aula05.js.map
