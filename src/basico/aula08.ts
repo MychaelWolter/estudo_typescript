@@ -35,7 +35,7 @@ const dados2: object = {
     info: (p: string) => {
         console.log(`Testando ${p}`);
     }
-}
+};
 
 console.log(typeof(dados2));
 console.log(dados2);
