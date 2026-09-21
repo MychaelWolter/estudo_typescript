@@ -20,3 +20,6 @@ console.log(numeros3);
 
 const numeros4: ReadonlyArray <number> = [100, 200, 300, 400];
 console.log(numeros4);
+
+const numeros5: readonly number[] = [150, 250, 350, 450];
+console.log(numeros5);
