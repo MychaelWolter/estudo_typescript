@@ -54,11 +54,11 @@ interface Dados {
     nome: string;
     idade: number;
     status: string;
-    ola: void;
-    info: void;
+    ola: () => void;
+    info: (p: string) => void;
 };
 
-const dados3 = {
+const dados3: Dados = {
     nome: "Mychael",
     idade: 21,
     status: "Ativo",
