@@ -1,3 +1,5 @@
+console.log("Array e Readonly Array");
+
 const numeros1: number[] = [20, 40, 60];
 console.log(numeros1);
 
