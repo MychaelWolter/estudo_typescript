@@ -39,14 +39,6 @@ const dados2: object = {
 
 console.log(typeof(dados2));
 console.log(dados2);
-console.log(dados2.nome);
-
-dados2.nome = "Mychael Wolter";
-console.log(dados2.nome);
-
-dados2.ola();
-dados2.info("123");
-dados2.info(dados2.nome);
 
 console.log();
 
