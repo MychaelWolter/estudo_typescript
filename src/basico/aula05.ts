@@ -27,3 +27,7 @@ vteste = true;
 console.log(vteste);
 
 console.log(testeArray);
+
+type Status = "pendente" | "concluido";
+const meustatus: Status = "concluido";
+console.log(meuStatus);
