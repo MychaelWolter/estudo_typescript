@@ -33,7 +33,6 @@ enum cores {
 
 console.log(cores.branco);
 console.log(cores['branco']);
-console.log(cores['#fff']);
 
 console.log();
 

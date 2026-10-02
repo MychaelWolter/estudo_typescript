@@ -1,0 +1,21 @@
+"use strict";
+Object.defineProperty(exports, "__esModule", { value: true });
+console.log("Array e Readonly Array");
+const numeros1 = [20, 40, 60];
+console.log(numeros1);
+const numeros2 = [10, 30, 50, "Mychael"];
+const numeros3 = [5, 10, 15, "Lucio"];
+numeros1.push(80);
+console.log(numeros1);
+numeros1.unshift(10);
+console.log(numeros1);
+numeros1.pop();
+numeros1.shift();
+console.log(numeros1);
+console.log(numeros2);
+console.log(numeros3);
+const numeros4 = [100, 200, 300, 400];
+console.log(numeros4);
+const numeros5 = [150, 250, 350, 450];
+console.log(numeros5);
+//# sourceMappingURL=aula06.js.map

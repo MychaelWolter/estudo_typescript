@@ -29,5 +29,5 @@ console.log(vteste);
 console.log(testeArray);
 
 type Status = "pendente" | "concluido";
-const meustatus: Status = "concluido";
+const meuStatus: Status = "concluido";
 console.log(meuStatus);

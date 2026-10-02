@@ -19,4 +19,6 @@ console.log(vteste);
 vteste = true;
 console.log(vteste);
 console.log(testeArray);
+const meuStatus = "concluido";
+console.log(meuStatus);
 //# sourceMappingURL=aula05.js.map

@@ -1,28 +1,21 @@
+"use strict";
+Object.defineProperty(exports, "__esModule", { value: true });
 console.log("Null, Undefined e Unknown");
-
-let nome1: string | null;
+let nome1;
 nome1 = null;
 console.log(nome1);
-
 nome1 = "Mychael";
 console.log(nome1);
-
 console.log();
-
-let nome2: any;
+let nome2;
 console.log(nome2);
-
 nome2 = null;
 console.log(nome2);
-
 nome2 = "Lucio";
 console.log(nome2);
-
 console.log();
-
-let nome3: unknown = nome1;
-let nomeNum: any = nome3;
+let nome3 = nome1;
+let nomeNum = nome3;
 console.log(nome3);
 console.log(nomeNum);
-
-
+//# sourceMappingURL=aula10.js.map
